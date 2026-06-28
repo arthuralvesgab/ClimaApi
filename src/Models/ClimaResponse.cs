@@ -3,13 +3,13 @@ using ClimaApi.Models;
 
 namespace ClimaApi.Models
 {
-    public class ClimaResponse
+    public class ClimaResponse // classe da resposta da API Clima
     {
-        public CurretWeather? current_weather { get; set;}
+        public CurrentWeather? Currentweather { get; set;}
     }
-    public class CurretWeather
+    public class CurrentWeather // classe que representa o clima atual
     {
-        public double temperature { get; set;}
-        public double windspeed { get; set;}
+        public double Temperature { get; set;}
+        public double Windspeed { get; set;}
     }
 }
